@@ -1,0 +1,21 @@
+.TodoList {
+  max-width: 40ch;
+  margin: auto;
+}
+
+.TodoList .item {
+  display: flex;
+  border-bottom: 1px solid #333;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+
+.TodoList .item .hour-text {
+  margin: 0.25rem;
+  padding: 0.25rem;
+}
+
+.TodoList .total {
+  padding: 0.5rem;
+  text-align: end;
+}
